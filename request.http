@@ -1,0 +1,15 @@
+
+### GET ALL MESSAGES
+GET http://localhost:3000/messages
+
+
+### CREATE A NEW MESSAGE
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+  "content": "cuarto message"
+}
+
+### GET A SPECIFIC MESSAGE
+GET http://localhost:3000/messages/75
